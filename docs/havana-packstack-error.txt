@@ -1,0 +1,12 @@
+ERROR : Failed to run remote script, stdout: 
+stderr: Warning: Permanently added '23.239.10.219' (ECDSA) to the list of known hosts.
++ trap t ERR
++ facter -p
+facter: error while loading shared libraries: leatherman_curl.so.1.3.0: cannot open shared object file: No such file or directory
+++ t
+++ exit 127
+
+Please check log file /var/tmp/packstack/20220309-144903-0BzS90/openstack-setup.log for more information
+Additional information:
+ * A new answerfile was created in: /home/melroyr/packstack-answers-20220309-153829.txt
+ * Time synchronization installation was skipped. Please note that unsynchronized time on server instances might be problem for some OpenStack components.
